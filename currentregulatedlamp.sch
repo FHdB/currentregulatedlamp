@@ -1,0 +1,133 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3600 1950 700  700 
+U 5B47D41C
+F0 "TPS54200" 50
+F1 "TPS54200.sch" 50
+F2 "VIN" I L 3600 2050 50 
+F3 "DIM" I L 3600 2250 50 
+F4 "LED+" I R 4300 2150 50 
+F5 "LED-" I R 4300 2250 50 
+F6 "GND" I L 3600 2450 50 
+$EndSheet
+$Comp
+L Connector_Generic:Conn_01x12 J1
+U 1 1 5B481A73
+P 2450 2550
+F 0 "J1" H 2370 3267 50  0000 C CNN
+F 1 "Conn_01x12" H 2370 3176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 2450 2550 50  0001 C CNN
+F 3 "~" H 2450 2550 50  0001 C CNN
+	1    2450 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J2
+U 1 1 5B481BDD
+P 5650 2850
+F 0 "J2" H 5730 2842 50  0000 L CNN
+F 1 "Conn_01x16" H 5730 2751 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Horizontal" H 5650 2850 50  0001 C CNN
+F 3 "~" H 5650 2850 50  0001 C CNN
+	1    5650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2150 4300 2150
+Wire Wire Line
+	4300 2250 5450 2250
+Wire Wire Line
+	2650 2450 3400 2450
+Wire Wire Line
+	3400 2450 3400 2250
+Wire Wire Line
+	3400 2250 3600 2250
+Wire Wire Line
+	2650 2050 2950 2050
+Wire Wire Line
+	2950 2050 2950 2150
+Wire Wire Line
+	2950 2150 2650 2150
+Wire Wire Line
+	2950 2050 3050 2050
+Connection ~ 2950 2050
+$Comp
+L power:+24V #PWR0101
+U 1 1 5B481E0C
+P 3050 2000
+F 0 "#PWR0101" H 3050 1850 50  0001 C CNN
+F 1 "+24V" H 3065 2173 50  0000 C CNN
+F 2 "" H 3050 2000 50  0001 C CNN
+F 3 "" H 3050 2000 50  0001 C CNN
+	1    3050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2000 3050 2050
+Wire Wire Line
+	2650 2350 2950 2350
+Wire Wire Line
+	2950 2350 2950 2250
+Wire Wire Line
+	2950 2250 2650 2250
+Wire Wire Line
+	2950 2250 3050 2250
+Wire Wire Line
+	3050 2250 3050 2300
+Connection ~ 2950 2250
+$Comp
+L power:GND #PWR0102
+U 1 1 5B4820A1
+P 3050 2300
+F 0 "#PWR0102" H 3050 2050 50  0001 C CNN
+F 1 "GND" H 3055 2127 50  0000 C CNN
+F 2 "" H 3050 2300 50  0001 C CNN
+F 3 "" H 3050 2300 50  0001 C CNN
+	1    3050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2450 3550 2450
+Wire Wire Line
+	3550 2450 3550 2550
+Wire Wire Line
+	3600 2050 3550 2050
+Wire Wire Line
+	3550 2050 3550 1950
+$Comp
+L power:+24V #PWR0103
+U 1 1 5B48238C
+P 3550 1950
+F 0 "#PWR0103" H 3550 1800 50  0001 C CNN
+F 1 "+24V" H 3565 2123 50  0000 C CNN
+F 2 "" H 3550 1950 50  0001 C CNN
+F 3 "" H 3550 1950 50  0001 C CNN
+	1    3550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5B4823B9
+P 3550 2550
+F 0 "#PWR0104" H 3550 2300 50  0001 C CNN
+F 1 "GND" H 3555 2377 50  0000 C CNN
+F 2 "" H 3550 2550 50  0001 C CNN
+F 3 "" H 3550 2550 50  0001 C CNN
+	1    3550 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
