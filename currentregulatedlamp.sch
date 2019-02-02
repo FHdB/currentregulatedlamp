@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:currentregulatedlamp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -38,18 +39,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x16 J2
 U 1 1 5B481BDD
-P 5650 2850
-F 0 "J2" H 5730 2842 50  0000 L CNN
-F 1 "Conn_01x16" H 5730 2751 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Horizontal" H 5650 2850 50  0001 C CNN
-F 3 "~" H 5650 2850 50  0001 C CNN
-	1    5650 2850
+P 5700 1450
+F 0 "J2" H 5780 1442 50  0000 L CNN
+F 1 "Conn_01x16" H 5780 1351 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Horizontal" H 5700 1450 50  0001 C CNN
+F 3 "~" H 5700 1450 50  0001 C CNN
+	1    5700 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 2150 4300 2150
-Wire Wire Line
-	4300 2250 5450 2250
 Wire Wire Line
 	2650 2450 3400 2450
 Wire Wire Line
@@ -130,4 +127,8 @@ F 3 "" H 3550 2550 50  0001 C CNN
 	1    3550 2550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4300 2250 5500 2250
+Wire Wire Line
+	4300 2150 5500 2150
 $EndSCHEMATC
