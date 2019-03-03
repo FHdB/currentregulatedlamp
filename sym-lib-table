@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name currentregulatedlamp)(type Legacy)(uri ${KIPRJMOD}/libs/currentregulatedlamp.lib)(options "")(descr ""))
+)
