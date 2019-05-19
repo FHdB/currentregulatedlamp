@@ -15,36 +15,27 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x12 J1
+L Connector_Generic:Conn_01x04 J1
 U 1 1 5B481A73
-P 2450 3350
-F 0 "J1" H 2370 4067 50  0000 C CNN
-F 1 "Conn_01x12" H 2370 3976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 2450 3350 50  0001 C CNN
-F 3 "~" H 2450 3350 50  0001 C CNN
-	1    2450 3350
+P 2450 3150
+F 0 "J1" H 2470 3567 50  0000 C CNN
+F 1 "Conn_01x04" H 2470 3476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2450 3150 50  0001 C CNN
+F 3 "~" H 2450 3150 50  0001 C CNN
+	1    2450 3150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x16 J2
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5B481BDD
-P 5600 3850
-F 0 "J2" H 5680 3842 50  0000 L CNN
-F 1 "Conn_01x16" H 5680 3751 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Horizontal" H 5600 3850 50  0001 C CNN
-F 3 "~" H 5600 3850 50  0001 C CNN
-	1    5600 3850
-	1    0    0    1   
+P 5600 3750
+F 0 "J2" H 5680 3742 50  0000 L CNN
+F 1 "Conn_01x04" H 5680 3651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5600 3750 50  0001 C CNN
+F 3 "~" H 5600 3750 50  0001 C CNN
+	1    5600 3750
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 2850 2950 2850
-Wire Wire Line
-	2950 2850 2950 2950
-Wire Wire Line
-	2950 2950 2650 2950
-Wire Wire Line
-	2950 2850 3050 2850
-Connection ~ 2950 2850
 $Comp
 L power:+24V #PWR0101
 U 1 1 5B481E0C
@@ -57,29 +48,9 @@ F 3 "" H 3050 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 2800 3050 2850
+	3050 2800 3050 3050
 Wire Wire Line
 	2650 3150 2950 3150
-Wire Wire Line
-	2950 3150 2950 3050
-Wire Wire Line
-	2950 3050 2650 3050
-Wire Wire Line
-	2950 3050 3050 3050
-Wire Wire Line
-	3050 3050 3050 3100
-Connection ~ 2950 3050
-$Comp
-L power:GND #PWR0102
-U 1 1 5B4820A1
-P 3050 3100
-F 0 "#PWR0102" H 3050 2850 50  0001 C CNN
-F 1 "GND" H 3055 2927 50  0000 C CNN
-F 2 "" H 3050 3100 50  0001 C CNN
-F 3 "" H 3050 3100 50  0001 C CNN
-	1    3050 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 3250 3600 3250
 $Comp
@@ -170,4 +141,41 @@ Wire Wire Line
 	3350 4000 3350 3350
 Wire Wire Line
 	3350 3350 2650 3350
+Wire Wire Line
+	4300 3200 5250 3200
+Wire Wire Line
+	5150 3300 4300 3300
+Wire Wire Line
+	4150 3950 5150 3950
+Wire Wire Line
+	5400 3650 5250 3650
+Wire Wire Line
+	5250 3200 5250 3650
+Wire Wire Line
+	5400 3750 5150 3750
+Wire Wire Line
+	5150 3750 5150 3300
+Wire Wire Line
+	2650 3050 3050 3050
+$Comp
+L power:GND #PWR0102
+U 1 1 5CE260EF
+P 2950 3150
+F 0 "#PWR0102" H 2950 2900 50  0001 C CNN
+F 1 "GND" H 2955 2977 50  0000 C CNN
+F 2 "" H 2950 3150 50  0001 C CNN
+F 3 "" H 2950 3150 50  0001 C CNN
+	1    2950 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 3950 5250 4050
+Wire Wire Line
+	4300 4050 5250 4050
+Wire Wire Line
+	5400 3850 5150 3850
+Wire Wire Line
+	5150 3850 5150 3950
+Wire Wire Line
+	5250 3950 5400 3950
 $EndSCHEMATC
