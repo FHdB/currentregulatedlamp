@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5B47D41C/5C7D386A" Ref="U1.1"  Part="1"
 AR Path="/5BE72980/5C7D386A" Ref="U1.?"  Part="1" 
 AR Path="/5C7D386A" Ref="U1.?"  Part="1" 
 AR Path="/5C7D3E21/5C7D386A" Ref="U1.2"  Part="1" 
-F 0 "U1.2" H 4400 3917 50  0000 C CNN
+F 0 "U1.1" H 4400 3917 50  0000 C CNN
 F 1 "TPS54200DDC" H 4400 3826 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 4450 3000 50  0001 L CIN
 F 3 "" H 4400 3450 50  0001 C CNN
@@ -39,7 +39,7 @@ AR Path="/5B47D41C/5C7D3872" Ref="C2.1"  Part="1"
 AR Path="/5BE72980/5C7D3872" Ref="C2.?"  Part="1" 
 AR Path="/5C7D3872" Ref="C2.?"  Part="1" 
 AR Path="/5C7D3E21/5C7D3872" Ref="C2.2"  Part="1" 
-F 0 "C2.2" H 5165 3296 50  0000 L CNN
+F 0 "C2.1" H 5165 3296 50  0000 L CNN
 F 1 "100n/50V" H 5165 3205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 5088 3100 50  0001 C CNN
 F 3 "~" H 5050 3250 50  0001 C CNN
@@ -62,7 +62,7 @@ AR Path="/5B47D41C/5C7D3884" Ref="C3.1"  Part="1"
 AR Path="/5BE72980/5C7D3884" Ref="C3.?"  Part="1" 
 AR Path="/5C7D3884" Ref="C3.?"  Part="1" 
 AR Path="/5C7D3E21/5C7D3884" Ref="C3.2"  Part="1" 
-F 0 "C3.2" H 6165 3296 50  0000 L CNN
+F 0 "C3.1" H 6165 3296 50  0000 L CNN
 F 1 "10u/25V" H 6165 3205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.39x2.70mm_HandSolder" H 6088 3100 50  0001 C CNN
 F 3 "~" H 6050 3250 50  0001 C CNN
@@ -86,7 +86,7 @@ AR Path="/5B47D41C/5C7D3890" Ref="R2.1"  Part="1"
 AR Path="/5BE72980/5C7D3890" Ref="R2.?"  Part="1" 
 AR Path="/5C7D3890" Ref="R2.?"  Part="1" 
 AR Path="/5C7D3E21/5C7D3890" Ref="R2.2"  Part="1" 
-F 0 "R2.2" H 6420 4046 50  0000 L CNN
+F 0 "R2.1" H 6420 4046 50  0000 L CNN
 F 1 "R" H 6420 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6280 4000 50  0001 C CNN
 F 3 "~" H 6350 4000 50  0001 C CNN
@@ -114,7 +114,7 @@ AR Path="/5B47D41C/5C7D389F" Ref="R1.1"  Part="1"
 AR Path="/5BE72980/5C7D389F" Ref="R1.?"  Part="1" 
 AR Path="/5C7D389F" Ref="R1.?"  Part="1" 
 AR Path="/5C7D3E21/5C7D389F" Ref="R1.2"  Part="1" 
-F 0 "R1.2" V 6257 3750 50  0000 C CNN
+F 0 "R1.1" V 6257 3750 50  0000 C CNN
 F 1 "1k/5%" V 6166 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5980 3750 50  0001 C CNN
 F 3 "~" H 6050 3750 50  0001 C CNN
@@ -154,7 +154,7 @@ AR Path="/5B47D41C/5C7D38B5" Ref="C1.1"  Part="1"
 AR Path="/5BE72980/5C7D38B5" Ref="C1.?"  Part="1" 
 AR Path="/5C7D38B5" Ref="C1.?"  Part="1" 
 AR Path="/5C7D3E21/5C7D38B5" Ref="C1.2"  Part="1" 
-F 0 "C1.2" H 3636 3546 50  0000 R CNN
+F 0 "C1.1" H 3636 3546 50  0000 R CNN
 F 1 "10u/25V" H 3636 3455 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.39x2.70mm_HandSolder" H 3788 3350 50  0001 C CNN
 F 3 "~" H 3750 3500 50  0001 C CNN
@@ -224,11 +224,37 @@ U 1 1 5CE1D4A7
 P 5650 3050
 AR Path="/5B47D41C/5CE1D4A7" Ref="L1.1"  Part="1" 
 AR Path="/5C7D3E21/5CE1D4A7" Ref="L1.2"  Part="1" 
-F 0 "L1.2" V 5840 3050 50  0000 C CNN
+F 0 "L1.1" V 5840 3050 50  0000 C CNN
 F 1 "L" V 5749 3050 50  0000 C CNN
 F 2 "FH_Inductors_SMT:L_Wuerth_WE-PD-6050" H 5650 3050 50  0001 C CNN
 F 3 "~" H 5650 3050 50  0001 C CNN
 	1    5650 3050
 	0    -1   -1   0   
+$EndComp
+$Comp
+L graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 5CE5BD30
+P 1750 1300
+AR Path="/5B47D41C/5CE5BD30" Ref="#LOGO1"  Part="1" 
+AR Path="/5C7D3E21/5CE5BD30" Ref="#LOGO3"  Part="1" 
+F 0 "#LOGO1" H 1750 1575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1750 1075 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen" H 1750 1300 50  0001 C CNN
+F 3 "~" H 1750 1300 50  0001 C CNN
+	1    1750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L graphic:Logo_Open_Hardware_Large #LOGO2
+U 1 1 5CE5CB91
+P 2650 1300
+AR Path="/5B47D41C/5CE5CB91" Ref="#LOGO2"  Part="1" 
+AR Path="/5C7D3E21/5CE5CB91" Ref="#LOGO4"  Part="1" 
+F 0 "#LOGO2" H 2650 1800 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 2650 900 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo_12mm_SilkScreen" H 2650 1300 50  0001 C CNN
+F 3 "~" H 2650 1300 50  0001 C CNN
+	1    2650 1300
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
